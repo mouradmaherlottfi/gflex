@@ -1,0 +1,415 @@
+* {
+  padding: 0em;
+  margin: 0em;
+  box-sizing: border-box;
+}
+
+.page-one {
+  height: 100vh;
+  background: url(./Images/the-town-bg-01.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* for all */
+
+a {
+  text-decoration: none;
+  color: #4169e1;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+span {
+  color: #315de0;
+  font-weight: bold;
+}
+
+/* end-for all */
+
+/* page-one */
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+}
+
+.page-one .links .white {
+  color: white;
+}
+
+.links .white:hover {
+  color: royalblue;
+}
+
+.links .list {
+  list-style: none;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.links .list a:hover {
+  color: royalblue;
+}
+
+.town {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+  flex-basis: 70%;
+  font-family: system-ui;
+  font-size: 2.5em;
+  color: white;
+}
+
+.town h1 {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.town h4 {
+  font-size: 0.4em;
+  font-weight: 400;
+}
+
+/* finish page one */
+
+/* page tow */
+
+.page-tow {
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3em 0;
+}
+
+.photo {
+  flex-basis: 45%;
+}
+
+.intro {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  font-family: sans-serif;
+}
+
+.intro h1 {
+  font-size: 2em;
+  font-weight: 500;
+  color: royalblue;
+}
+
+.intro p {
+  width: 60%;
+  color: gray;
+  line-height: 1.5em;
+}
+
+.intro .black {
+  color: #636161;
+}
+
+.intro .blue:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.intro button {
+  width: 20%;
+  background: royalblue;
+  border-radius: 1em;
+  border-color: royalblue;
+  padding: 0.6em 0;
+  transition: 0.5s;
+}
+
+.intro button:hover {
+  background-color: #2b59e4;
+  border-color: #2b59e4;
+  cursor: pointer;
+}
+
+.intro button a {
+  font-size: 1.2em;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.works {
+  font-family: system-ui;
+  background: linear-gradient(180deg, #d89480, #65678b);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 3em 0;
+}
+
+.works aside {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  flex-basis: 30%;
+}
+
+.works h1 {
+  font-family: system-ui;
+  color: white;
+  font-size: 2.2em;
+  font-weight: 500;
+}
+
+.works a {
+  font-family: system-ui;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.works p {
+  color: #d5c5c5;
+}
+
+/* page tow finish */
+
+/* page three start */
+
+.page-three {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-work {
+  margin: 3em 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+}
+
+.our-work h1 {
+  font-family: system-ui;
+  font-size: 2.5em;
+  font-weight: 500;
+  color: royalblue;
+}
+
+.our-work p {
+  width: 42%;
+  font-family: sans-serif;
+  color: gray;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.photos {
+  width: 200px;
+  height: 220px;
+  transition: 0.4s;
+}
+
+.photos:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* page three end */
+
+/* final page start */
+
+.final-page {
+  background: url(./Images/the-town-bg-02.jpg);
+  background-position-y: 50%;
+  background-position-x: 100%;
+  padding: 2em;
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4em;
+}
+
+.contact {
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  color: white;
+}
+
+.contact h1 {
+  font-family: system-ui;
+  font-size: 2.5em;
+}
+
+hr {
+  position: relative;
+  overflow: visible;
+}
+
+hr::after {
+  content: "";
+  left: 0em;
+  top: 0em;
+  position: absolute;
+  border: 3px white solid;
+  width: 25%;
+}
+
+.contact p {
+  font-family: system-ui;
+  line-height: 2em;
+}
+
+.our-location {
+  margin: 4em 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75em;
+  font-family: system-ui;
+  color: white;
+  width: 92%;
+  gap: 2em;
+  flex-basis: 85%;
+}
+
+.our-location aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4em;
+}
+
+.our-location h2 {
+  font-size: 1.3em;
+}
+
+.submit {
+  gap: 4em;
+  display: flex;
+}
+
+.submit input {
+  border-radius: 8px;
+  height: 2.7em;
+  background-color: transparent;
+  color: white;
+  border: 3px white solid;
+  width: 60%;
+  font-family: sans-serif;
+  padding-left: 1em;
+}
+
+.submit button {
+  border-color: white;
+  padding: 0.7em;
+  color: royalblue;
+  font-family: sans-serif;
+  font-weight: 800;
+  border-radius: 0.5em;
+}
+
+.submit button:hover {
+  cursor: pointer;
+}
+
+.designer p {
+  font-family: sans-serif;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  /* page one start */
+
+  .page-one .list {
+    flex-direction: column;
+    align-items: end;
+    gap: 0.4em;
+  }
+
+  /* page one end */
+
+  /* page tow start */
+
+  .introduction {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .intro {
+    align-items: center;
+  }
+
+  .intro button a {
+    font-size: 1em;
+  }
+
+  .works {
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .works aside {
+    align-items: center;
+  }
+
+  .works p {
+    width: 70%;
+  }
+
+  /* page three start */
+
+  .our-work p {
+    width: 75%;
+  }
+  /* page three end */
+
+  /* final page start */
+
+  .final-page {
+    text-align: center;
+    background-size: cover;
+  }
+
+  .our-location {
+    gap: 4em;
+    flex-direction: column;
+  }
+
+  .our-location aside {
+    gap: 4em;
+  }
+
+  .our-location h2 {
+    font-size: 1.3em;
+  }
+
+  .designer p {
+    font-size: 0.7em;
+  }
+}

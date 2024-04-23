@@ -1,0 +1,78 @@
+* {
+  padding: 0em;
+  margin: 0em;
+  box-sizing: border-box;
+}
+
+.page-one {
+  height: 100vh;
+  background: url(./Images/the-town-bg-01.jpg);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* for all */
+
+a {
+  text-decoration: none;
+  color: #4169e1;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+span {
+  color: #315de0;
+  font-weight: bold;
+}
+
+/* end-for all */
+
+/* page-one */
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+}
+
+.page-one .links .white {
+  color: white;
+}
+
+.links .list {
+  list-style: none;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.links .white:hover {
+  color: royalblue;
+}
+
+.town {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+  flex-basis: 70%;
+  font-family: system-ui;
+  font-size: 2.5em;
+  color: white;
+}
+
+.town h1 {
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.town h4 {
+  font-size: 0.4em;
+  font-weight: 400;
+}
+
+/* finish page one */
